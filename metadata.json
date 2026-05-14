@@ -15,7 +15,11 @@
   "artifacts": {
     "01-requirements": {
       "status": "in-progress",
-      "files": []
+      "files": [
+        "requirements.md",
+        "use-cases.md",
+        "entity-map.md"
+      ]
     },
     "02-architecture": {
       "status": "in-progress",
