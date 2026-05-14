@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local files and temporary document analysis artifacts
+ProyectoFinal_tmp.zip
+docx_media_proyecto_final/
+docx_render_proyecto_final/
+docx_unzip_tmp/

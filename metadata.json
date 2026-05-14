@@ -1,0 +1,45 @@
+{
+  "project": "Sistema de Carga ETL",
+  "version": "1.0.0",
+  "description": "Sistema ETL para cargar, validar, limpiar, transformar y unificar datasets inmobiliarios.",
+  "pdco_phase": "PLAN",
+  "active_skill": "01-requirements",
+  "sdlc_stage": "requirements",
+  "last_updated": "2026-05-14",
+  "standards": {
+    "code_style_python": "PEP 8",
+    "architecture": "MVC con capas de dominio, aplicacion e infraestructura",
+    "testing_coverage_min": "80%",
+    "documentation": "Markdown + JSON"
+  },
+  "artifacts": {
+    "01-requirements": {
+      "status": "in-progress",
+      "files": []
+    },
+    "02-architecture": {
+      "status": "in-progress",
+      "files": []
+    },
+    "03-development": {
+      "status": "pending",
+      "files": []
+    },
+    "04-testing": {
+      "status": "pending",
+      "files": []
+    },
+    "05-maintenance": {
+      "status": "pending",
+      "files": []
+    }
+  },
+  "patterns_applied": [
+    "Facade",
+    "Repository",
+    "Controller",
+    "Polymorphism"
+  ],
+  "antipatterns_detected": [],
+  "solid_violations": []
+}
