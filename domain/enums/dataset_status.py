@@ -1,8 +1,17 @@
-﻿from enum import Enum
+from enum import Enum
 
 
 class DatasetStatus(Enum):
-    NEW = 'new'
-    CLEANING = 'cleaning'
-    READY = 'ready'
-    FAILED = 'failed'
+    RAW = "raw"
+    VALIDATED = "validated"
+    STORED = "stored"
+    CLEANING = "cleaning"
+    PROFILED = "profiled"
+    TRANSFORMED = "transformed"
+    UNIFIED = "unified"
+    READY = "ready"
+    ERROR = "error"
+
+    # Compatibility aliases used by the current services.
+    NEW = RAW
+    FAILED = ERROR
