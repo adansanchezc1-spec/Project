@@ -23,7 +23,11 @@
     },
     "02-architecture": {
       "status": "in-progress",
-      "files": []
+      "files": [
+        "architecture.md",
+        "patterns.md",
+        "uml.md"
+      ]
     },
     "03-development": {
       "status": "pending",
