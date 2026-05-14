@@ -1,7 +1,13 @@
-﻿from abc import ABC, abstractmethod
+from abc import ABC, abstractmethod
 
 
-class NotificationService(ABC):
+class INotificationService(ABC):
+    """Contract for pipeline notifications."""
+
     @abstractmethod
-    def notify(self, subject: str, message: str) -> None:
+    def notify(self, message: str, subject: str | None = None) -> None:
         raise NotImplementedError
+
+
+class NotificationService(INotificationService):
+    """Backward-compatible alias for notification implementations."""
