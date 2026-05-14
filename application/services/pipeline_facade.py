@@ -29,4 +29,4 @@ class PipelineFacade:
     def notify(self, dataset: Dataset) -> None:
         subject = f"Dataset {dataset.name} procesado"
         message = f"Estado: {dataset.status.name}. Features: {len(dataset.features)}"
-        self.notification.notify(subject, message)
+        self.notification.notify(message, subject=subject)
