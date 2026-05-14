@@ -1,1 +1,0 @@
-from colab import auth
